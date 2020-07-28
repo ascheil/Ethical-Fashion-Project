@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DB9F89B24D0CD5D005894EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9F89A24D0CD5D005894EB /* AppDelegate.swift */; };
+		8DB9F89D24D0CD5D005894EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9F89C24D0CD5D005894EB /* SceneDelegate.swift */; };
+		8DB9F89F24D0CD5D005894EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9F89E24D0CD5D005894EB /* ViewController.swift */; };
+		8DB9F8A224D0CD5D005894EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB9F8A024D0CD5D005894EB /* Main.storyboard */; };
+		8DB9F8A524D0CD5D005894EB /* Ethical_Fashion_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9F8A324D0CD5D005894EB /* Ethical_Fashion_App.xcdatamodeld */; };
+		8DB9F8A724D0CD5F005894EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB9F8A624D0CD5F005894EB /* Assets.xcassets */; };
+		8DB9F8AA24D0CD5F005894EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB9F8A824D0CD5F005894EB /* LaunchScreen.storyboard */; };
+		8DB9F8B524D0CD5F005894EB /* Ethical_Fashion_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9F8B424D0CD5F005894EB /* Ethical_Fashion_AppTests.swift */; };
+		8DB9F8C024D0CD5F005894EB /* Ethical_Fashion_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9F8BF24D0CD5F005894EB /* Ethical_Fashion_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DB9F8B124D0CD5F005894EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB9F88F24D0CD5D005894EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB9F89624D0CD5D005894EB;
+			remoteInfo = "Ethical Fashion App";
+		};
+		8DB9F8BC24D0CD5F005894EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB9F88F24D0CD5D005894EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB9F89624D0CD5D005894EB;
+			remoteInfo = "Ethical Fashion App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DB9F89724D0CD5D005894EB /* Ethical Fashion App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ethical Fashion App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB9F89A24D0CD5D005894EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DB9F89C24D0CD5D005894EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8DB9F89E24D0CD5D005894EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DB9F8A124D0CD5D005894EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DB9F8A424D0CD5D005894EB /* Ethical_Fashion_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ethical_Fashion_App.xcdatamodel; sourceTree = "<group>"; };
+		8DB9F8A624D0CD5F005894EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DB9F8A924D0CD5F005894EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DB9F8AB24D0CD5F005894EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB9F8B024D0CD5F005894EB /* Ethical Fashion AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ethical Fashion AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB9F8B424D0CD5F005894EB /* Ethical_Fashion_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ethical_Fashion_AppTests.swift; sourceTree = "<group>"; };
+		8DB9F8B624D0CD5F005894EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB9F8BB24D0CD5F005894EB /* Ethical Fashion AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ethical Fashion AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB9F8BF24D0CD5F005894EB /* Ethical_Fashion_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ethical_Fashion_AppUITests.swift; sourceTree = "<group>"; };
+		8DB9F8C124D0CD5F005894EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DB9F89424D0CD5D005894EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB9F8AD24D0CD5F005894EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB9F8B824D0CD5F005894EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DB9F88E24D0CD5D005894EB = {
+			isa = PBXGroup;
+			children = (
+				8DB9F89924D0CD5D005894EB /* Ethical Fashion App */,
+				8DB9F8B324D0CD5F005894EB /* Ethical Fashion AppTests */,
+				8DB9F8BE24D0CD5F005894EB /* Ethical Fashion AppUITests */,
+				8DB9F89824D0CD5D005894EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DB9F89824D0CD5D005894EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DB9F89724D0CD5D005894EB /* Ethical Fashion App.app */,
+				8DB9F8B024D0CD5F005894EB /* Ethical Fashion AppTests.xctest */,
+				8DB9F8BB24D0CD5F005894EB /* Ethical Fashion AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DB9F89924D0CD5D005894EB /* Ethical Fashion App */ = {
+			isa = PBXGroup;
+			children = (
+				8DB9F89A24D0CD5D005894EB /* AppDelegate.swift */,
+				8DB9F89C24D0CD5D005894EB /* SceneDelegate.swift */,
+				8DB9F89E24D0CD5D005894EB /* ViewController.swift */,
+				8DB9F8A024D0CD5D005894EB /* Main.storyboard */,
+				8DB9F8A624D0CD5F005894EB /* Assets.xcassets */,
+				8DB9F8A824D0CD5F005894EB /* LaunchScreen.storyboard */,
+				8DB9F8AB24D0CD5F005894EB /* Info.plist */,
+				8DB9F8A324D0CD5D005894EB /* Ethical_Fashion_App.xcdatamodeld */,
+			);
+			path = "Ethical Fashion App";
+			sourceTree = "<group>";
+		};
+		8DB9F8B324D0CD5F005894EB /* Ethical Fashion AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DB9F8B424D0CD5F005894EB /* Ethical_Fashion_AppTests.swift */,
+				8DB9F8B624D0CD5F005894EB /* Info.plist */,
+			);
+			path = "Ethical Fashion AppTests";
+			sourceTree = "<group>";
+		};
+		8DB9F8BE24D0CD5F005894EB /* Ethical Fashion AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DB9F8BF24D0CD5F005894EB /* Ethical_Fashion_AppUITests.swift */,
+				8DB9F8C124D0CD5F005894EB /* Info.plist */,
+			);
+			path = "Ethical Fashion AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DB9F89624D0CD5D005894EB /* Ethical Fashion App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB9F8C424D0CD5F005894EB /* Build configuration list for PBXNativeTarget "Ethical Fashion App" */;
+			buildPhases = (
+				8DB9F89324D0CD5D005894EB /* Sources */,
+				8DB9F89424D0CD5D005894EB /* Frameworks */,
+				8DB9F89524D0CD5D005894EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ethical Fashion App";
+			productName = "Ethical Fashion App";
+			productReference = 8DB9F89724D0CD5D005894EB /* Ethical Fashion App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DB9F8AF24D0CD5F005894EB /* Ethical Fashion AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB9F8C724D0CD5F005894EB /* Build configuration list for PBXNativeTarget "Ethical Fashion AppTests" */;
+			buildPhases = (
+				8DB9F8AC24D0CD5F005894EB /* Sources */,
+				8DB9F8AD24D0CD5F005894EB /* Frameworks */,
+				8DB9F8AE24D0CD5F005894EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DB9F8B224D0CD5F005894EB /* PBXTargetDependency */,
+			);
+			name = "Ethical Fashion AppTests";
+			productName = "Ethical Fashion AppTests";
+			productReference = 8DB9F8B024D0CD5F005894EB /* Ethical Fashion AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DB9F8BA24D0CD5F005894EB /* Ethical Fashion AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB9F8CA24D0CD5F005894EB /* Build configuration list for PBXNativeTarget "Ethical Fashion AppUITests" */;
+			buildPhases = (
+				8DB9F8B724D0CD5F005894EB /* Sources */,
+				8DB9F8B824D0CD5F005894EB /* Frameworks */,
+				8DB9F8B924D0CD5F005894EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DB9F8BD24D0CD5F005894EB /* PBXTargetDependency */,
+			);
+			name = "Ethical Fashion AppUITests";
+			productName = "Ethical Fashion AppUITests";
+			productReference = 8DB9F8BB24D0CD5F005894EB /* Ethical Fashion AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DB9F88F24D0CD5D005894EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Amelie Scheil";
+				TargetAttributes = {
+					8DB9F89624D0CD5D005894EB = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					8DB9F8AF24D0CD5F005894EB = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 8DB9F89624D0CD5D005894EB;
+					};
+					8DB9F8BA24D0CD5F005894EB = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 8DB9F89624D0CD5D005894EB;
+					};
+				};
+			};
+			buildConfigurationList = 8DB9F89224D0CD5D005894EB /* Build configuration list for PBXProject "Ethical Fashion App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DB9F88E24D0CD5D005894EB;
+			productRefGroup = 8DB9F89824D0CD5D005894EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DB9F89624D0CD5D005894EB /* Ethical Fashion App */,
+				8DB9F8AF24D0CD5F005894EB /* Ethical Fashion AppTests */,
+				8DB9F8BA24D0CD5F005894EB /* Ethical Fashion AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DB9F89524D0CD5D005894EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB9F8AA24D0CD5F005894EB /* LaunchScreen.storyboard in Resources */,
+				8DB9F8A724D0CD5F005894EB /* Assets.xcassets in Resources */,
+				8DB9F8A224D0CD5D005894EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB9F8AE24D0CD5F005894EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB9F8B924D0CD5F005894EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DB9F89324D0CD5D005894EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB9F89F24D0CD5D005894EB /* ViewController.swift in Sources */,
+				8DB9F89B24D0CD5D005894EB /* AppDelegate.swift in Sources */,
+				8DB9F8A524D0CD5D005894EB /* Ethical_Fashion_App.xcdatamodeld in Sources */,
+				8DB9F89D24D0CD5D005894EB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB9F8AC24D0CD5F005894EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB9F8B524D0CD5F005894EB /* Ethical_Fashion_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB9F8B724D0CD5F005894EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB9F8C024D0CD5F005894EB /* Ethical_Fashion_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DB9F8B224D0CD5F005894EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB9F89624D0CD5D005894EB /* Ethical Fashion App */;
+			targetProxy = 8DB9F8B124D0CD5F005894EB /* PBXContainerItemProxy */;
+		};
+		8DB9F8BD24D0CD5F005894EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB9F89624D0CD5D005894EB /* Ethical Fashion App */;
+			targetProxy = 8DB9F8BC24D0CD5F005894EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DB9F8A024D0CD5D005894EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DB9F8A124D0CD5D005894EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DB9F8A824D0CD5F005894EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DB9F8A924D0CD5F005894EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DB9F8C224D0CD5F005894EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DB9F8C324D0CD5F005894EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DB9F8C524D0CD5F005894EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ethical Fashion App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Amelie.Ethical-Fashion-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DB9F8C624D0CD5F005894EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ethical Fashion App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Amelie.Ethical-Fashion-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DB9F8C824D0CD5F005894EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ethical Fashion AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Amelie.Ethical-Fashion-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ethical Fashion App.app/Ethical Fashion App";
+			};
+			name = Debug;
+		};
+		8DB9F8C924D0CD5F005894EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ethical Fashion AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Amelie.Ethical-Fashion-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ethical Fashion App.app/Ethical Fashion App";
+			};
+			name = Release;
+		};
+		8DB9F8CB24D0CD5F005894EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ethical Fashion AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Amelie.Ethical-Fashion-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ethical Fashion App";
+			};
+			name = Debug;
+		};
+		8DB9F8CC24D0CD5F005894EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ethical Fashion AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Amelie.Ethical-Fashion-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ethical Fashion App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DB9F89224D0CD5D005894EB /* Build configuration list for PBXProject "Ethical Fashion App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB9F8C224D0CD5F005894EB /* Debug */,
+				8DB9F8C324D0CD5F005894EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB9F8C424D0CD5F005894EB /* Build configuration list for PBXNativeTarget "Ethical Fashion App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB9F8C524D0CD5F005894EB /* Debug */,
+				8DB9F8C624D0CD5F005894EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB9F8C724D0CD5F005894EB /* Build configuration list for PBXNativeTarget "Ethical Fashion AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB9F8C824D0CD5F005894EB /* Debug */,
+				8DB9F8C924D0CD5F005894EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB9F8CA24D0CD5F005894EB /* Build configuration list for PBXNativeTarget "Ethical Fashion AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB9F8CB24D0CD5F005894EB /* Debug */,
+				8DB9F8CC24D0CD5F005894EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DB9F8A324D0CD5D005894EB /* Ethical_Fashion_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DB9F8A424D0CD5D005894EB /* Ethical_Fashion_App.xcdatamodel */,
+			);
+			currentVersion = 8DB9F8A424D0CD5D005894EB /* Ethical_Fashion_App.xcdatamodel */;
+			path = Ethical_Fashion_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8DB9F88F24D0CD5D005894EB /* Project object */;
+}
