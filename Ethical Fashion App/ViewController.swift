@@ -9,11 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-// hello
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        self.title = "item"
+        self.tabBarItem.image = UIImage(named: "item")
+        self.tabBarItem.selectedImage = UIImage(named: "item_selected")
     }
+    
+    @IBOutlet weak var articleScroll: UIScrollView!
+
 
 
 }
