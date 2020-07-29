@@ -573,7 +573,7 @@ Through a continued exploration of form, materiality, and artisan techniques, we
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Clothing" id="fvE-rg-hgY"/>
+                                    <navigationItem title="Featured Articles" id="fvE-rg-hgY"/>
                                 </items>
                             </navigationBar>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R0A-ox-hr8">
@@ -618,10 +618,18 @@ Through a continued exploration of form, materiality, and artisan techniques, we
                                                     <rect key="frame" x="0.0" y="0.0" width="384" height="128"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="ljV-Nt-a1S">
-                                                            <rect key="frame" x="0.0" y="0.0" width="384" height="128"/>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ethical-fashion" translatesAutoresizingMaskIntoConstraints="NO" id="ljV-Nt-a1S">
+                                                            <rect key="frame" x="8" y="0.0" width="255" height="128"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
+                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ethical Fashion: Why It Matters" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IDS-Fl-vkm">
+                                                            <rect key="frame" x="256" y="0.0" width="128" height="128"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                            <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                        </textView>
                                                     </subviews>
                                                 </collectionViewCellContentView>
                                                 <size key="customSize" width="384" height="128"/>
@@ -633,10 +641,18 @@ Through a continued exploration of form, materiality, and artisan techniques, we
                                                     <rect key="frame" x="0.0" y="0.0" width="384" height="128"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-1" translatesAutoresizingMaskIntoConstraints="NO" id="B7S-M3-nGi">
-                                                            <rect key="frame" x="0.0" y="0.0" width="384" height="128"/>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="960x0" translatesAutoresizingMaskIntoConstraints="NO" id="B7S-M3-nGi">
+                                                            <rect key="frame" x="181" y="0.0" width="203" height="128"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
+                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Why Sustainable Fashion Matters" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2vc-lY-UUE">
+                                                            <rect key="frame" x="8" y="0.0" width="181" height="128"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                            <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                        </textView>
                                                     </subviews>
                                                 </collectionViewCellContentView>
                                                 <size key="customSize" width="384" height="128"/>
@@ -648,10 +664,18 @@ Through a continued exploration of form, materiality, and artisan techniques, we
                                                     <rect key="frame" x="0.0" y="0.0" width="384" height="128"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-2" translatesAutoresizingMaskIntoConstraints="NO" id="Iiu-A8-9vx">
-                                                            <rect key="frame" x="0.0" y="0.0" width="384" height="128"/>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shein-1536x1024" translatesAutoresizingMaskIntoConstraints="NO" id="MC7-ev-uK3">
+                                                            <rect key="frame" x="8" y="0.0" width="193" height="128"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
+                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Shining A Light On Shein’s Unethical Labor Practices" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cpW-QE-iBh">
+                                                            <rect key="frame" x="203" y="0.0" width="181" height="160"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                            <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                        </textView>
                                                     </subviews>
                                                 </collectionViewCellContentView>
                                                 <size key="customSize" width="384" height="128"/>
@@ -663,10 +687,18 @@ Through a continued exploration of form, materiality, and artisan techniques, we
                                                     <rect key="frame" x="0.0" y="0.0" width="384" height="128"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-3" translatesAutoresizingMaskIntoConstraints="NO" id="Zsj-Yb-ngI">
-                                                            <rect key="frame" x="0.0" y="0.0" width="384" height="128"/>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-07-29 at 2.45.15 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Zsj-Yb-ngI">
+                                                            <rect key="frame" x="180" y="0.0" width="204" height="128"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
+                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Former Everlane Employees Are Calling For A Boycott After Speaking Out About Workplace Racism" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xlj-gu-reh">
+                                                            <rect key="frame" x="8" y="-12" width="181" height="140"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                            <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                        </textView>
                                                     </subviews>
                                                 </collectionViewCellContentView>
                                                 <size key="customSize" width="384" height="128"/>
@@ -678,10 +710,18 @@ Through a continued exploration of form, materiality, and artisan techniques, we
                                                     <rect key="frame" x="0.0" y="0.0" width="384" height="128"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-4" translatesAutoresizingMaskIntoConstraints="NO" id="jNN-d5-Sld">
-                                                            <rect key="frame" x="0.0" y="0.0" width="384" height="128"/>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="http___cdn.cnn.com_cnnnext_dam_assets_200619152119-your-ig-post-is-not-enough" translatesAutoresizingMaskIntoConstraints="NO" id="jNN-d5-Sld">
+                                                            <rect key="frame" x="0.0" y="0.0" width="217" height="128"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
+                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="The fashion industry says it stands against racism. Critics aren't buying it" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dLB-WG-qj3">
+                                                            <rect key="frame" x="203" y="0.0" width="181" height="140"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                            <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                        </textView>
                                                     </subviews>
                                                 </collectionViewCellContentView>
                                                 <size key="customSize" width="384" height="128"/>
@@ -700,10 +740,12 @@ Through a continued exploration of form, materiality, and artisan techniques, we
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cxH-oX-axQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="794"/>
+            <point key="canvasLocation" x="137.68115942028987" y="793.52678571428567"/>
         </scene>
     </scenes>
     <resources>
+        <image name="960x0" width="960" height="640"/>
+        <image name="Screen Shot 2020-07-29 at 2.45.15 PM" width="720" height="470"/>
         <image name="bookmark.fill" catalog="system" width="112" height="128"/>
         <image name="download" width="298" height="169"/>
         <image name="download-1" width="224" height="224"/>
@@ -712,7 +754,9 @@ Through a continued exploration of form, materiality, and artisan techniques, we
         <image name="download-4" width="310" height="163"/>
         <image name="ethical-fashion" width="940" height="492"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="http___cdn.cnn.com_cnnnext_dam_assets_200619152119-your-ig-post-is-not-enough" width="1198" height="674"/>
         <image name="image" width="1084" height="1628"/>
         <image name="map.fill" catalog="system" width="128" height="113"/>
+        <image name="shein-1536x1024" width="1536" height="1024"/>
     </resources>
 </document>
