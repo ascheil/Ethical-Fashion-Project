@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tSv-Rc-FPG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tSv-Rc-FPG">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -176,13 +176,6 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="5C2-8U-B8A"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="1DZ-uM-C8d"/>
                             </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Featured Articles" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CIA-Xp-RgI">
-                                <rect key="frame" x="22" y="383" width="371" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qib-QB-c62">
                                 <rect key="frame" x="15" y="254" width="384" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -230,6 +223,17 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duC-yl-jOc">
+                                <rect key="frame" x="251" y="387" width="148" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Featured Articles">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Pze-E4-lRa" kind="presentation" id="Huk-Bd-0eW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -305,6 +309,17 @@
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                         </imageView>
+                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFE-U3-qQI">
+                                                            <rect key="frame" x="122" y="87" width="214" height="49"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                            <state key="normal" title="INVISIBLE BUTTON">
+                                                                <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                            </state>
+                                                            <connections>
+                                                                <segue destination="nqT-d4-oHt" kind="presentation" id="v8T-uN-gZL"/>
+                                                            </connections>
+                                                        </button>
                                                     </subviews>
                                                 </collectionViewCellContentView>
                                                 <size key="customSize" width="384" height="128"/>
@@ -384,7 +399,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nrr-lp-8LZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="872" y="118"/>
+            <point key="canvasLocation" x="871.01449275362324" y="117.85714285714285"/>
         </scene>
         <!--Brand Profile View Controller-->
         <scene sceneID="bh7-BY-XaQ">
@@ -440,7 +455,7 @@
             <objects>
                 <viewController id="nqT-d4-oHt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Hs-NP-PwM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bg.1" translatesAutoresizingMaskIntoConstraints="NO" id="Fyl-oF-eEp">
@@ -719,7 +734,7 @@ Through a continued exploration of form, materiality, and artisan techniques, we
             <objects>
                 <viewController id="Pze-E4-lRa" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uvB-V4-8mY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x2U-ek-fW7">
@@ -730,7 +745,7 @@ Through a continued exploration of form, materiality, and artisan techniques, we
                                 </items>
                             </navigationBar>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R0A-ox-hr8">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <rect key="frame" x="0.0" y="759" width="414" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -740,7 +755,7 @@ Through a continued exploration of form, materiality, and artisan techniques, we
                                 </items>
                             </tabBar>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="coe-fJ-hum">
-                                <rect key="frame" x="10" y="823" width="414" height="49"/>
+                                <rect key="frame" x="10" y="769" width="414" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -783,6 +798,16 @@ Through a continued exploration of form, materiality, and artisan techniques, we
                                                             <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                         </textView>
+                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58D-dj-tIA">
+                                                            <rect key="frame" x="331" y="66" width="61" height="54"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <state key="normal" title="BUTTON">
+                                                                <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </state>
+                                                            <connections>
+                                                                <action selector="externalurl1:" destination="WFV-5J-fIs" eventType="touchUpInside" id="e4V-tC-jB7"/>
+                                                            </connections>
+                                                        </button>
                                                     </subviews>
                                                 </collectionViewCellContentView>
                                                 <size key="customSize" width="384" height="128"/>
@@ -885,6 +910,13 @@ Through a continued exploration of form, materiality, and artisan techniques, we
                                 <viewLayoutGuide key="contentLayoutGuide" id="DDQ-0p-9f0"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="SyT-3f-7ts"/>
                             </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LINK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2t-6u-wDa">
+                                <rect key="frame" x="330" y="48" width="64" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="HeK-PZ-TwU"/>
@@ -892,8 +924,9 @@ Through a continued exploration of form, materiality, and artisan techniques, we
                     <navigationItem key="navigationItem" id="Sal-Lg-zwR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cxH-oX-axQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="WFV-5J-fIs" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="793.52678571428567"/>
+            <point key="canvasLocation" x="86.956521739130437" y="793.52678571428567"/>
         </scene>
     </scenes>
     <resources>
