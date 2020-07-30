@@ -16,6 +16,7 @@
 		8DB9F8AA24D0CD5F005894EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB9F8A824D0CD5F005894EB /* LaunchScreen.storyboard */; };
 		8DB9F8B524D0CD5F005894EB /* Ethical_Fashion_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9F8B424D0CD5F005894EB /* Ethical_Fashion_AppTests.swift */; };
 		8DB9F8C024D0CD5F005894EB /* Ethical_Fashion_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9F8BF24D0CD5F005894EB /* Ethical_Fashion_AppUITests.swift */; };
+		8DB9F90F24D2BCF6005894EB /* BrandProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9F90E24D2BCF6005894EB /* BrandProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8DB9F8BB24D0CD5F005894EB /* Ethical Fashion AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ethical Fashion AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB9F8BF24D0CD5F005894EB /* Ethical_Fashion_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ethical_Fashion_AppUITests.swift; sourceTree = "<group>"; };
 		8DB9F8C124D0CD5F005894EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB9F90E24D2BCF6005894EB /* BrandProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				8DB9F89C24D0CD5D005894EB /* SceneDelegate.swift */,
 				8DB9F89E24D0CD5D005894EB /* ViewController.swift */,
 				8DB9F8A024D0CD5D005894EB /* Main.storyboard */,
+				8DB9F90E24D2BCF6005894EB /* BrandProfileViewController.swift */,
 				8DB9F8A624D0CD5F005894EB /* Assets.xcassets */,
 				8DB9F8A824D0CD5F005894EB /* LaunchScreen.storyboard */,
 				8DB9F8AB24D0CD5F005894EB /* Info.plist */,
@@ -266,6 +269,7 @@
 				8DB9F89B24D0CD5D005894EB /* AppDelegate.swift in Sources */,
 				8DB9F8A524D0CD5D005894EB /* Ethical_Fashion_App.xcdatamodeld in Sources */,
 				8DB9F89D24D0CD5D005894EB /* SceneDelegate.swift in Sources */,
+				8DB9F90F24D2BCF6005894EB /* BrandProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
