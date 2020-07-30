@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tSv-Rc-FPG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tSv-Rc-FPG">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -443,7 +443,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="Fyl-oF-eEp">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bg.1" translatesAutoresizingMaskIntoConstraints="NO" id="Fyl-oF-eEp">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" red="0.42329263690000002" green="0.58439272639999995" blue="0.75296318529999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.42329263690000002" green="0.58439272639999995" blue="0.75296318529999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -899,6 +899,7 @@ Through a continued exploration of form, materiality, and artisan techniques, we
     <resources>
         <image name="960x0" width="960" height="640"/>
         <image name="Screen Shot 2020-07-29 at 2.45.15 PM" width="720" height="470"/>
+        <image name="bg.1" width="542" height="814"/>
         <image name="bookmark.fill" catalog="system" width="112" height="128"/>
         <image name="download" width="298" height="169"/>
         <image name="download-1" width="224" height="224"/>
@@ -908,7 +909,6 @@ Through a continued exploration of form, materiality, and artisan techniques, we
         <image name="ethical-fashion" width="940" height="492"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="http___cdn.cnn.com_cnnnext_dam_assets_200619152119-your-ig-post-is-not-enough" width="1198" height="674"/>
-        <image name="image" width="542" height="814"/>
         <image name="map.fill" catalog="system" width="128" height="113"/>
         <image name="shein-1536x1024" width="1536" height="1024"/>
     </resources>
