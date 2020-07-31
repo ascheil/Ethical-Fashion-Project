@@ -19,9 +19,9 @@ class ViewController: UIViewController {
         self.tabBarItem.selectedImage = UIImage(named: "item_selected")
     }
     
-    @IBAction func externalurl1(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string:"https://nosidebar.com/ethical-fashion/")! as URL, options: [:], completionHandler: nil)
-    }
+//    @IBAction func externalurl1(_ sender: UIButton) {
+//        UIApplication.shared.open(URL(string:"https://nosidebar.com/ethical-fashion/")! as URL, options: [:], completionHandler: nil)
+//    }
     
     @IBOutlet weak var articleScroll: UIScrollView!
 
